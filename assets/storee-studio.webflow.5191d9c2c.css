@@ -2213,7 +2213,7 @@ body {
 .inner-hero-section {
   width: 100%;
   height: 100%;
-  background-image: url("../5e91e5757859bc326f68affe_Storee-Studio-Hero.jpg");
+  background-image: url("firstbackground.jpg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5030,49 +5030,49 @@ body {
 
 @font-face {
   font-family: 'Recoleta';
-  src: url('../5e6698ee58967b53119bc70e_Recoleta-Regular.ttf') format('truetype');
+  src: url('Recoleta-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Recoleta';
-  src: url('../5e6698ee66d4d44882be4d89_Recoleta-Light.ttf') format('truetype');
+  src: url('Recoleta-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Avenir Next Lt Pro';
-  src: url('../5e669a6e045828451f8aa101_AvenirNextLTPro-Regular.otf') format('opentype');
+  src: url('AvenirNextLTPro-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Avenir Next Lt Pro';
-  src: url('../5e669a6e58967b7f329bd0ef_AvenirNextLTPro-Bold.otf') format('opentype');
+  src: url('AvenirNextLTPro-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Avenir Lt Std';
-  src: url('../5e669a6e3c1ac659be151d15_AvenirLTStd-Oblique.otf') format('opentype');
+  src: url('AvenirLTStd-Oblique.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
   font-display: auto;
 }
 @font-face {
   font-family: 'Avenir Lt Std';
-  src: url('../5e669a6ecbb093637ebd2c4e_AvenirLTStd-Light.otf') format('opentype');
+  src: url('AvenirLTStd-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Avenir Lt Std';
-  src: url('../5e669a6ecbb0931750bd2c4f_AvenirLTStd-Medium.otf') format('opentype');
+  src: url('AvenirLTStd-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: auto;
