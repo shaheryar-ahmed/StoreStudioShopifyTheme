@@ -1,0 +1,69 @@
+<div data-w-id="734e3977-51fc-4669-3356-a1b19e74f320" class="section height-auto colour1c">
+    <div class="bg-color-holder hidden">
+      <div class="bg-color choose"></div>
+    </div>
+    <div class="container">
+      <div class="w-layout-grid about-grid">
+        <div class="left-col top-padding"><img
+            src="5e669721cbb0937940bd12d8/5e66989c366cdac00e3a6db3_Round%20Blob.svg"
+            data-w-id="e1954215-628c-e5a6-c3ee-1017aa237259" alt="Round Blob" class="blob">
+          <h3 data-w-id="ddf11d8e-68df-c2d8-7757-b4b35f1979bb" style="opacity:0" class="heading3 white">Why choose us?
+          </h3>
+          <div class="holder">
+            <div class="text18 center white">About Our Studio</div>
+            <div class="text16 white">We are a boutique Shopify agency. In the past few years we have helped a great
+              number of brands bring their dream eCommerce stores to life. Together we merge commerce and art,
+              creating beautiful, trendy and high conversion online stores.</div>
+          </div>
+        </div>
+        <div id="w-node-_558ebb9d-07b1-4f32-d209-0ee0ba8be2ed-64bd12d9" class="right-col">
+          <div class="flex-center vert">
+            <div class="text18 center dark">Certified Partner</div><img
+              src="5e669721cbb0937940bd12d8/5f433e94b1f4687c3feb8ed3_Shopify_Partners_logo%402x.png"
+              alt="Certified Shopify Partners" sizes="(max-width: 479px) 100vw, 200px"
+              srcset="5e669721cbb0937940bd12d8/5f433e94b1f4687c3feb8ed3_Shopify_Partners_logo%402x-p-500.png 500w, 5e669721cbb0937940bd12d8/5f433e94b1f4687c3feb8ed3_Shopify_Partners_logo%402x.png 696w"
+              class="shopify-logo">
+            <div class="text18 center dark">Shopify Stores Built</div>
+            <div data-w-id="28f68841-185d-8cce-8487-500ea4369f83" style="opacity:0" class="flex-center">
+              <div class="number-text">+</div>
+              <div id="1" class="number-text counter">0</div>
+            </div>
+            <div class="text18 center dark">Shopify Stores Managed</div>
+            <div data-w-id="daa6ddf0-011d-3016-8a92-8d253ffb81d7" style="opacity:0" class="flex-center">
+              <div id="2" class="number-text counter">0</div>
+              <div class="number-text">+</div>
+            </div>
+          </div>
+          <div class="embed-counter w-embed w-script">
+            <script src="ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script src="ajax/libs/waypoints/1.1.6/waypoints.min.js"></script>
+
+            //Counter into view Code
+            <script>
+              $('#1').waypoint(function () {
+                increment(1, 30);
+              }, { offset: '75%' });
+
+              $('#2').waypoint(function () {
+                increment(2, 40);
+              }, { offset: '75%' });
+
+
+              function increment(elem, finalVal) {
+                var currVal = parseInt(document.getElementById(elem).innerHTML, 10);
+                if (currVal < finalVal) {
+                  currVal++;
+                  document.getElementById(elem).innerHTML = currVal;
+
+                  setTimeout(function () {
+                    increment(elem, finalVal);
+                  }, 40)
+                }
+              };
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
